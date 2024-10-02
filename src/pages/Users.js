@@ -23,10 +23,10 @@ export default function HomeScreen({ navigation }) {
             <Text style={styles.buttonText}> Alt Kullanıcılar</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.menuButton} >
-            <Icon name="account-plus" size={30} color="#3b5998"  onPress={(()=>navigation.navigate("UserDetails"))}/>
+            <Icon name="account-plus" size={30} color="#3b5998"  onPress={(()=>navigation.navigate("UserReg"))}/>
             <Text style={styles.buttonText}>Yeni Kullanıcı</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.menuButton} onPress={(()=>navigation.navigate("UserReg"))} >
+          <TouchableOpacity style={styles.menuButton} onPress={(()=>navigation.navigate("UserDetails"))} >
             <Icon name="account-details" size={30} color="#3b5998" />
             <Text style={styles.buttonText}>Profil Bilgileri</Text>
           </TouchableOpacity>
